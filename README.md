@@ -1,3 +1,5 @@
 # How to run
 
+```
 ./configure
+```
