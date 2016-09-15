@@ -1,0 +1,31 @@
+#!/bin/bash
+# Install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew doctor
+
+# Add cask
+brew tap caskroom/cask
+
+# VirtualBox
+brew cask install virtualbox
+
+# Docker
+brew install docker
+brew install docker-machine
+
+# NPM and NodeJs
+brew install node
+
+# mas https://github.com/argon/mas
+brew install mas
+
+# xquartz
+brew cask install xquartz
+
+# R
+brew tap homebrew/science
+brew install r
+
+# Google Chrome, Dropbox, 1Password Atom GeekTool 
+brew cask install google-chrome dropbox 1password atom geektool

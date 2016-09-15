@@ -1,0 +1,27 @@
+#!/bin/bash
+
+bash dock
+bash touchpad
+bash brew
+bash mas
+bash npm
+bash git
+bash folders
+
+cp .bash_profile ~/.bash_profile
+source ~/.bash_profile
+
+open /Applications/Dropbox.app
+read -p "Press any key to continue... " -n1 -s
+
+open /Applications/1Password\ 6.app/
+read -p "Press any key to continue... " -n1 -s
+
+open /Applications/Google\ Chrome.app/
+read -p "Press any key to continue... " -n1 -s
+
+open /Applications/GeekTool.app/
+read -p "Press any key to continue... " -n1 -s
+
+# Reboot at the end!
+sudo shutdown -r now

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir ~/Projects
+mkdir ~/Projects/personal
+mkdir ~/Projects/sandbox
+mkdir ~/Projects/work
+
+mkdir ~/Dev

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# XCode
+mas install 497799835
+
+#iWork
+mas install 409183694
+mas install 409201541
+mas install 409203825
+
+# Coffee
+mas install 462188559

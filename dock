@@ -1,0 +1,9 @@
+#!/bin/bash
+
+defaults write com.apple.dock showhidden -bool TRUE	# Show hidden apps
+defaults write com.apple.dock mineffect suck		# Disable animations
+defaults delete com.apple.dock persistent-apps		# Removes all applications from Dock
+defaults delete com.apple.dock persistent-other		# Removes all folders from dock
+
+# defaults delete com.apple.dock; # Reset to default
+killall Dock;
