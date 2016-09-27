@@ -29,3 +29,6 @@ brew install r
 
 # Google Chrome, Dropbox, 1Password Atom GeekTool 
 brew cask install google-chrome dropbox 1password atom geektool
+
+# Java
+brew cask install java
