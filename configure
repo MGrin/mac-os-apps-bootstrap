@@ -23,5 +23,7 @@ read -p "Press any key to continue... " -n1 -s
 open /Applications/GeekTool.app/
 read -p "Press any key to continue... " -n1 -s
 
+sudo gem install cocoapods
+
 # Reboot at the end!
 sudo shutdown -r now
